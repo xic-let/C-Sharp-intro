@@ -1,2 +1,1 @@
-# c-intro
-exercicios emc#
+Several beginner level c# exercises 
