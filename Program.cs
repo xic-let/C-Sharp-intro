@@ -1,54 +1,31 @@
 ﻿using System;
-using Pessoas_e_Salarios;
-using System.Security.Cryptography;
 
-
-internal class Program
+namespace Salarios2
 {
-    private static object p1;
-
-    private static void Main(string[] args)
+    internal class Program
     {
-        Pessoas p1 = new Pessoas();
-        Pessoas p2 = new Pessoas();
-
-        Console.WriteLine(" Digite o nome da pessoa: ");
-        Console.WriteLine(" Nome: ");
-        p1.Nome = Console.ReadLine();
-        Console.WriteLine(" Digite a idade da pessoa: ");
-        p1.Idade =int.Parse( Console.ReadLine());
-
-        Console.WriteLine(" Digite o nome da pessoa: ");
-        Console.WriteLine(" Nome: ");
-        p2.Nome = Console.ReadLine();
-        Console.WriteLine(" Digite a idade da pessoa: ");
-        p2.Idade = int.Parse(Console.ReadLine());
-
-        if(p1.Idade < p2.Idade)
+        static void Main(string[] args)
         {
-            Console.WriteLine(p2.Nome + " Nasceu primeiro!");
+            CalcSal s1 = new CalcSal();
+
+
+            Console.WriteLine(" Digite o nome do Funcionário: ");
+            Console.WriteLine(" Nome: ");
+            s1.NomeFunc = Console.ReadLine();
+            Console.WriteLine(" Digite o salário bruto da pessoa: ");
+            Console.WriteLine(" Salario Bruto: ");
+            s1.SalarioBruto = double.Parse(Console.ReadLine());
+            Console.WriteLine(" Digite o valor do Imposto: ");
+            Console.WriteLine(" Imposto: ");
+            s1.Imposto = double.Parse(Console.ReadLine());
+            Console.WriteLine(" Digite a percentagem de aumento: ");
+            s1.percentagem = double.Parse(Console.ReadLine());
+            
+
+            Console.WriteLine(s1);
+
+
+
         }
-        else
-        {
-            Console.WriteLine(p1.Nome + " Nasceu primeiro!");
-        }
-        Salarios f1 = new Salarios();
-        Salarios f2 = new Salarios();
-
-        Console.WriteLine(" Digite o nome do Funcionário: ");
-        Console.WriteLine(" Nome: ");
-        f1.NomeFunc = Console.ReadLine();
-        Console.WriteLine(" Digite o salário da pessoa: ");
-        f1.SalarioFunc = int.Parse(Console.ReadLine());
-
-        Console.WriteLine(" Digite o nome do Funcionário: ");
-        Console.WriteLine(" Nome: ");
-        f2.NomeFunc = Console.ReadLine();
-        Console.WriteLine(" Digite o salário da pessoa: ");
-        f2.SalarioFunc = int.Parse(Console.ReadLine());
-
-        double media = (f1.SalarioFunc + f2.SalarioFunc) / 2;
-        Console.WriteLine(" O salário médio é: " + media);
-
     }
 }
