@@ -1,0 +1,15 @@
+C:\Users\Cesae\Desktop\POO\BancoCesae\bin\Debug\net6.0\BancoCesae.exe
+C:\Users\Cesae\Desktop\POO\BancoCesae\bin\Debug\net6.0\BancoCesae.deps.json
+C:\Users\Cesae\Desktop\POO\BancoCesae\bin\Debug\net6.0\BancoCesae.runtimeconfig.json
+C:\Users\Cesae\Desktop\POO\BancoCesae\bin\Debug\net6.0\BancoCesae.dll
+C:\Users\Cesae\Desktop\POO\BancoCesae\bin\Debug\net6.0\BancoCesae.pdb
+C:\Users\Cesae\Desktop\POO\BancoCesae\obj\Debug\net6.0\BancoCesae.csproj.AssemblyReference.cache
+C:\Users\Cesae\Desktop\POO\BancoCesae\obj\Debug\net6.0\BancoCesae.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Cesae\Desktop\POO\BancoCesae\obj\Debug\net6.0\BancoCesae.AssemblyInfoInputs.cache
+C:\Users\Cesae\Desktop\POO\BancoCesae\obj\Debug\net6.0\BancoCesae.AssemblyInfo.cs
+C:\Users\Cesae\Desktop\POO\BancoCesae\obj\Debug\net6.0\BancoCesae.csproj.CoreCompileInputs.cache
+C:\Users\Cesae\Desktop\POO\BancoCesae\obj\Debug\net6.0\BancoCesae.dll
+C:\Users\Cesae\Desktop\POO\BancoCesae\obj\Debug\net6.0\refint\BancoCesae.dll
+C:\Users\Cesae\Desktop\POO\BancoCesae\obj\Debug\net6.0\BancoCesae.pdb
+C:\Users\Cesae\Desktop\POO\BancoCesae\obj\Debug\net6.0\BancoCesae.genruntimeconfig.cache
+C:\Users\Cesae\Desktop\POO\BancoCesae\obj\Debug\net6.0\ref\BancoCesae.dll
